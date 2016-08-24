@@ -1,0 +1,26 @@
+{
+  "name": "fe-ops-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flatten": "node ./index.js flatten",
+    "read": "node ./index.js read",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-bluebird-async-functions": "^1.2.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015-node6": "^0.3.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "bluebird": "^3.4.1"
+  }
+}
